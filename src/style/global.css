@@ -3,8 +3,24 @@
   height: 190px;
   padding: 8px;
   text-align: center;
+  margin-top: auto;
 }
 
 .box:nth-child(even) {
   background-color: #cccccc;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .material-icons {
+    animation: icons infinite 5s linear;
+  }
+}
+
+@keyframes icons {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

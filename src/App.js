@@ -52,7 +52,7 @@ class App extends React.Component {
           <Box icon="favorite" color="red" value={this.state.heart} onChange={this.onHeartChange} min= {heartMin} max={heartMax} unit="bpm" />
 
           {/* Temperature */}
-          <Box icon="wb_sunny" color="yellow" value={this.state.temperature} onChange={this.onTemperatureChange} min= {tempMin} max={tempMax} unit="°C" />
+          <Box className="sunyy" icon="wb_sunny" color="yellow" value={this.state.temperature} onChange={this.onTemperatureChange} min= {tempMin} max={tempMax} unit="°C" />
         </div>
       </div>
     );

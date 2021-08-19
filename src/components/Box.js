@@ -16,7 +16,8 @@ class Box extends React.Component {
         min={this.props.min} 
         max={this.props.max} 
         value={this.props.value} 
-        onChange={e => this.props.onChange(e)}></input>
+        // onChange={e => this.props.onChange(e)}
+        onChange={this.props.onChange}></input>
         }
       </div>
     )
